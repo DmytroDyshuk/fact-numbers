@@ -1,4 +1,4 @@
-package com.dyshuk.android.factnumbers
+package com.dyshuk.android.factnumbers.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

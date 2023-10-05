@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FactNumbers</string>
+
+<!--    NumberSearch fragment-->
+    <string name="number_search_title">Search number</string>
+    <string name="number_search_enter_number_hint">Enter any number</string>
+    <string name="number_search_description">Enter the number you want to know an interesting fact about.\nChoose math if you want a math fact about a number or trivia to get some interesting fact.</string>
+    <string name="number_search_trivia">Trivia</string>
+    <string name="number_search_math">Math</string>
+    <string name="number_search_search">Search</string>
+    <string name="number_search_search_history">Search history</string>
+
 </resources>
