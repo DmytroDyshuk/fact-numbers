@@ -71,7 +71,7 @@
             <RadioGroup
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="0.7"
                 android:orientation="horizontal"
                 android:gravity="center_vertical"
                 android:checkedButton="@id/rb_trivia">
@@ -94,12 +94,30 @@
 
             </RadioGroup>
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/mb_search"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_search_search" />
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/mb_search"
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:textSize="12sp"
+                    android:text="@string/number_search_search"
+                    android:layout_marginEnd="3dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/mb_search_random_number"
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:textSize="12sp"
+                    android:text="@string/number_search_search_random_number"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
 
         </LinearLayout>
         
