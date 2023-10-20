@@ -20,7 +20,8 @@ class NumbersHistoryAdapter : ListAdapter<Number, NumbersHistoryAdapter.NumbersH
         holder.bind(number)
     }
 
-    class NumbersHistoryViewHolder(private val binding: HistoryNumberItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    class NumbersHistoryViewHolder(private val binding: HistoryNumberItemBinding) :
+        RecyclerView.ViewHolder(binding.root) {
         fun bind(number: Number) {
             binding.apply {
 

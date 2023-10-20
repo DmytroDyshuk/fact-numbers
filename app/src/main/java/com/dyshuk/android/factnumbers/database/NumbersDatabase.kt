@@ -8,7 +8,7 @@ import com.dyshuk.android.factnumbers.database.dao.NumbersDao
 import com.dyshuk.android.factnumbers.database.model.DbNumber
 
 @Database(entities = [DbNumber::class], version = 1)
-abstract class NumbersDatabase: RoomDatabase() {
+abstract class NumbersDatabase : RoomDatabase() {
     abstract val numbersDao: NumbersDao
 }
 
