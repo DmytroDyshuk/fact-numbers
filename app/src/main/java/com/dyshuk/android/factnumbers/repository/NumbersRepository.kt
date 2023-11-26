@@ -3,7 +3,7 @@ package com.dyshuk.android.factnumbers.repository
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.map
 import com.dyshuk.android.factnumbers.database.NumbersDatabase
-import com.dyshuk.android.factnumbers.database.model.DbNumber
+import com.dyshuk.android.factnumbers.database.model.NumberDb
 import com.dyshuk.android.factnumbers.database.model.asListDomainModel
 import com.dyshuk.android.factnumbers.network.RetrofitService
 import com.dyshuk.android.factnumbers.network.model.asDatabaseModel
@@ -30,7 +30,7 @@ class NumbersRepository(private val numbersDatabase: NumbersDatabase) {
         return@withContext randomNumber.asDomainModel()
     }
 
-    private fun saveNumberToDatabase(number: DbNumber) {
+    private fun saveNumberToDatabase(number: NumberDb) {
         numbersDatabase.numbersDao.insertNumber(number)
     }
 

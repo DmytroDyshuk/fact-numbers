@@ -5,13 +5,13 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.dyshuk.android.factnumbers.database.model.DbNumber
+import com.dyshuk.android.factnumbers.database.model.NumberDb
 
 @Dao
 interface NumbersDao {
-    @Query("SELECT * FROM DbNumber")
-    fun getNumbers(): LiveData<List<DbNumber>>
+    @Query("SELECT * FROM NumberDb")
+    fun getNumbers(): LiveData<List<NumberDb>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insertNumber(number: DbNumber)
+    fun insertNumber(number: NumberDb)
 }

@@ -5,9 +5,9 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.dyshuk.android.factnumbers.database.dao.NumbersDao
-import com.dyshuk.android.factnumbers.database.model.DbNumber
+import com.dyshuk.android.factnumbers.database.model.NumberDb
 
-@Database(entities = [DbNumber::class], version = 1)
+@Database(entities = [NumberDb::class], version = 1)
 abstract class NumbersDatabase : RoomDatabase() {
     abstract val numbersDao: NumbersDao
 }
