@@ -1,7 +1,7 @@
-package com.dyshuk.android.factnumbers.network.model
+package com.dyshuk.android.factnumbers.data.network.model
 
-import com.dyshuk.android.factnumbers.database.model.NumberDb
-import com.dyshuk.android.factnumbers.domain.Number as NumberDomain
+import com.dyshuk.android.factnumbers.data.database.model.NumberDb
+import com.dyshuk.android.factnumbers.domain.model.Number as NumberDomain
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 

@@ -1,4 +1,4 @@
-package com.dyshuk.android.factnumbers.ui.fragments.number_search.adapters
+package com.dyshuk.android.factnumbers.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.dyshuk.android.factnumbers.databinding.HistoryNumberItemBinding
-import com.dyshuk.android.factnumbers.domain.Number
+import com.dyshuk.android.factnumbers.domain.model.Number
 
 class NumbersHistoryAdapter : ListAdapter<Number, NumbersHistoryAdapter.NumbersHistoryViewHolder>(DiffCallback) {
 

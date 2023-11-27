@@ -1,4 +1,4 @@
-package com.dyshuk.android.factnumbers.domain
+package com.dyshuk.android.factnumbers.domain.model
 
 data class Number(
     val text: String,

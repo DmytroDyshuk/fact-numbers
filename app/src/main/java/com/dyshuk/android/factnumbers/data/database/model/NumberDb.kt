@@ -1,8 +1,8 @@
-package com.dyshuk.android.factnumbers.database.model
+package com.dyshuk.android.factnumbers.data.database.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.dyshuk.android.factnumbers.domain.Number as NumberDomain
+import com.dyshuk.android.factnumbers.domain.model.Number as NumberDomain
 
 @Entity
 data class NumberDb constructor(

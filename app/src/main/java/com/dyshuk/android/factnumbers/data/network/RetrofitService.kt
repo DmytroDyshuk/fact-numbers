@@ -1,5 +1,6 @@
-package com.dyshuk.android.factnumbers.network
+package com.dyshuk.android.factnumbers.data.network
 
+import com.dyshuk.android.factnumbers.data.network.api.NumbersApiService
 import com.dyshuk.android.factnumbers.utils.constants.Constants.NUMBERS_BASE_URL
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory

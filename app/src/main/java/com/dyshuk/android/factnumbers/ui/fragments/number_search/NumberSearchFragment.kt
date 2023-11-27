@@ -1,4 +1,4 @@
-package com.dyshuk.android.factnumbers.ui.fragments.number_search.ui
+package com.dyshuk.android.factnumbers.ui.fragments.number_search
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import com.dyshuk.android.factnumbers.databinding.FragmentNumberSearchBinding
-import com.dyshuk.android.factnumbers.ui.viewmodel.NumbersViewModel
+import com.dyshuk.android.factnumbers.ui.viewmodels.NumbersViewModel
 
 class NumberSearchFragment : Fragment() {
 

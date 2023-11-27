@@ -1,11 +1,11 @@
-package com.dyshuk.android.factnumbers.database
+package com.dyshuk.android.factnumbers.data.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.dyshuk.android.factnumbers.database.dao.NumbersDao
-import com.dyshuk.android.factnumbers.database.model.NumberDb
+import com.dyshuk.android.factnumbers.data.database.dao.NumbersDao
+import com.dyshuk.android.factnumbers.data.database.model.NumberDb
 
 @Database(entities = [NumberDb::class], version = 1)
 abstract class NumbersDatabase : RoomDatabase() {

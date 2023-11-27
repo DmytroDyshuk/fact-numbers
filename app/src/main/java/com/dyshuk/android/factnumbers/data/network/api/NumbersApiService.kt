@@ -1,6 +1,6 @@
-package com.dyshuk.android.factnumbers.network
+package com.dyshuk.android.factnumbers.data.network.api
 
-import com.dyshuk.android.factnumbers.network.model.NumberRemote
+import com.dyshuk.android.factnumbers.data.network.model.NumberRemote
 import retrofit2.http.GET
 import retrofit2.http.Path
 

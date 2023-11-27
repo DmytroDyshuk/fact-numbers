@@ -1,4 +1,4 @@
-package com.dyshuk.android.factnumbers.ui.viewmodel
+package com.dyshuk.android.factnumbers.ui.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

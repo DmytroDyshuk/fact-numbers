@@ -1,16 +1,16 @@
-package com.dyshuk.android.factnumbers.repository
+package com.dyshuk.android.factnumbers.data.repositories
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.map
-import com.dyshuk.android.factnumbers.database.NumbersDatabase
-import com.dyshuk.android.factnumbers.database.model.NumberDb
-import com.dyshuk.android.factnumbers.database.model.asListDomainModel
-import com.dyshuk.android.factnumbers.network.RetrofitService
-import com.dyshuk.android.factnumbers.network.model.asDatabaseModel
-import com.dyshuk.android.factnumbers.network.model.asDomainModel
+import com.dyshuk.android.factnumbers.data.database.NumbersDatabase
+import com.dyshuk.android.factnumbers.data.database.model.NumberDb
+import com.dyshuk.android.factnumbers.data.database.model.asListDomainModel
+import com.dyshuk.android.factnumbers.data.network.RetrofitService
+import com.dyshuk.android.factnumbers.data.network.model.asDatabaseModel
+import com.dyshuk.android.factnumbers.data.network.model.asDomainModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import com.dyshuk.android.factnumbers.domain.Number as AppNumber
+import com.dyshuk.android.factnumbers.domain.model.Number as AppNumber
 
 class NumbersRepository(private val numbersDatabase: NumbersDatabase) {
 
